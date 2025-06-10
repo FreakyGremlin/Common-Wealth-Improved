@@ -1,0 +1,284 @@
+add_namespace = saf_mod_event
+country_event = {
+	id = saf_mod_event.2
+	title = ger_event.2.t
+	desc = ger_event.2.d
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		start_civil_war = {
+			ideology = fascism
+			capital = 540
+			states = all
+			size = 0.5
+			keep_all_characters = yes
+			states_filter = {
+				OR = {
+					state = 540
+					state = 892
+					state = 891
+				}
+				is_controlled_by = ROOT
+			}
+		}
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.3
+	title = ger_event.2.t
+	desc = ger_event.2.d
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		start_civil_war = {
+			ideology = fascism
+			capital = 771
+			states = all
+			size = 0.5
+			keep_all_characters = yes
+			states_filter = {
+				OR = {
+					state = 771
+					state = 981
+				}
+				is_controlled_by = ROOT
+			}
+		}
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.4
+	title = ger_event.2.t
+	desc = ger_event.2.d
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		set_cosmetic_tag = D06_fascism
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.5
+	title = ger_event.2.t
+	desc = ger_event.2.d
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		set_cosmetic_tag = D05_fascism
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.6
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.2
+		SAF = {
+			country_event = {
+				id = saf_mod_event.10
+			}
+		}
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.7
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		release = ANG
+		release = MZB
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.8
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		release = ZAM
+		release = BOT
+		release = ZIM
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.9
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		release = OFS
+		release = NTL
+		release = TRV
+		release = NMB
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.10
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.4
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.3
+		}
+		SAF = {
+			country_event = {
+				id = saf_mod_event.11
+			}
+		}
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
+
+country_event = {
+	id = saf_mod_event.11
+	title = "uh"
+	desc = "uh"
+	picture = saf_anti_colonialist_crusade
+	is_triggered_only = yes
+	option = {
+		name = "We accept"
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.4
+		add_ideas = fallout_of_the_1936_confrence
+		SAF = {
+			country_event = {
+				id = saf_mod_event.9
+			
+			}
+		}
+		ENG = {
+			country_event = {
+				id = saf_mod_event.8
+			}
+		}
+		POR = {
+			country_event = {
+				id = saf_mod_event.7
+			}
+		}
+	}
+	option = {
+		name = "Nuh uh"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.3
+	}
+}
